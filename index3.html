@@ -1,0 +1,36 @@
+<html>
+<head>
+<style>
+body {background-color: coral;}
+<title>
+Login page
+</title>
+</style>
+</head>
+<body>
+<h1 style="font-family:Times New Roman;text-align="center";font-size:20pt;
+color:#00FF00;>
+Simple Login Page
+</h1>
+<form name="login">
+Username<input type="text" name="userid"/>
+Password<input type="password" name="pswrd"/>
+<input type="button" onclick="check(this.form)" value="Login"/>
+<input type="reset" value="Cancel"/>
+</form>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "user" && form.pswrd.value == "password")
+  {
+    window.open('h3nrym.github.io/index.html')/*opens the target page while Id & password matches*/
+  }
+ else
+ {
+   alert("Error Password or Username")/*displays error message*/
+  }
+}
+</script>
+</body>
+</html>
