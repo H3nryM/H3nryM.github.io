@@ -85,6 +85,32 @@ td {
         <td>This album has hits such as Skywritter, Hallelujah Day, The Boogie Man, Touch, Corner of the Sky, I Can't Quit Your Love, Uppermost, World of Sunshine, Ooh, I'd Love to Be With You, and You Made Me What I Am.</td>
         </tr>
         </table> 
-        
+        <!DOCTYPE html>
+<html>
+<body>
+
+<p>Select your favorite browser:</p>
+<form action="/action_page.php">
+    <input type="radio" name="album" onclick="myFunction(this.value)" value="Diana Ross Presents the Jackson 5">Diana Ross Presents the Jackson 5<br>
+    <input type="radio" name="album" onclick="myFunction(this.value)" value="ABC">ABC<br>
+    <input type="radio" name="album" onclick="myFunction(this.value)" value="Third Album">Third Album<br>
+    <input type="radio" name="album" onclick="myFunction(this.value)" value="Jackson Five Christmas Album">Jackson Five Christmas Album<br>
+    <input type="radio" name="album" onclick="myFunction(this.value)" value="Goin' Back to Indiana">Goin' Back to Indiana<br>
+    <input type="radio" name="album" onclick="myFunction(this.value)" value="Greatest Hits">Greatest Hits<br>
+    <input type="radio" name="album" onclick="myFunction(this.value)" value="Lookin' Through The Windows">Lookin' Through The Windows<br>
+    <input type="radio" name="album" onclick="myFunction(this.value)" value="Skywriter">Skywriter<br>
+
+  Your favorite album is: <input type="text" id="result">
+  <input type="submit" value="Submit form">
+</form>
+
+<script>
+function myFunction(browser) {
+    document.getElementById("result").value = browser;
+}
+</script>
+
+</body>
+</html>
     </body>
 </html>
