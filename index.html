@@ -15,10 +15,12 @@
         font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
         font-size: 15vmin;
         padding: 0px;
+        @include lhCrop(1.2);
       }
       h2 {
         font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
         font-size: 10vmin;
+        margin:-10;
       }
       h3{
         font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
@@ -43,6 +45,16 @@
       }
      
      span b { font-size: 80%; font-weight: normal }
+      
+      @mixin lhCrop($line-height) {
+  &::before {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    margin-top: calc((1 - #{$line-height}) * 0.5em);
+  }
+}
       
     </style>
     <body>
