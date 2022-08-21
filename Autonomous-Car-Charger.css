@@ -955,32 +955,24 @@
 }
 
  .u-section-7-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/DesignTechnologyIA-HenryMazaika.png");
-  background-position: 50% 35.29%;
+  background-image: none;
 }
 
 .u-section-7-1 .u-sheet-1 {
   min-height: 100vh;
 }
 
-.u-section-7-1 .u-text-1 {
-  font-size: 4.5rem;
-  margin: 210px auto 0;
-}
-
-.u-section-7-1 .u-text-2 {
-  width: 837px;
-  margin: 30px auto 60px;
+.u-section-7-1 .u-image-1 {
+  filter: brightness(0.95);
+  height: 602px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  object-position: 50% 34.37%;
 }
 
 @media (max-width: 1199px) {
   .u-section-7-1 .u-sheet-1 {
-    min-height: 735px;
-  }
-
-  .u-section-7-1 .u-text-2 {
-    margin-left: 52px;
-    margin-right: 52px;
+    min-height: 660px;
   }
 }
 
@@ -989,48 +981,25 @@
     min-height: 100vh;
   }
 
-  .u-section-7-1 .u-text-1 {
-    margin-left: 34px;
-    margin-right: 34px;
-  }
-
-  .u-section-7-1 .u-text-2 {
-    width: 720px;
-    margin-left: 0;
-    margin-right: 0;
+  .u-section-7-1 .u-image-1 {
     margin-bottom: 0;
+    object-position: 88.07% 34.37%;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-7-1 .u-sheet-1 {
-    min-height: 689px;
-  }
-
-  .u-section-7-1 .u-text-1 {
-    font-size: 3rem;
-    margin-left: 53px;
-    margin-right: 53px;
-  }
-
-  .u-section-7-1 .u-text-2 {
-    width: 540px;
+    min-height: 380px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-7-1 .u-sheet-1 {
-    min-height: 635px;
+    min-height: 239px;
   }
 
-  .u-section-7-1 .u-text-1 {
-    font-size: 2.75rem;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-7-1 .u-text-2 {
-    width: 340px;
+  .u-section-7-1 .u-image-1 {
+    object-position: 37.67% 34.37%;
   }
 }
 
@@ -1044,55 +1013,6 @@
 
 .u-section-7-2 .u-image-1 {
   filter: brightness(0.95);
-  height: 602px;
-  margin-top: 28px;
-  margin-bottom: 28px;
-  object-position: 50% 34.37%;
-}
-
-@media (max-width: 1199px) {
-  .u-section-7-2 .u-sheet-1 {
-    min-height: 660px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-7-2 .u-sheet-1 {
-    min-height: 100vh;
-  }
-
-  .u-section-7-2 .u-image-1 {
-    margin-bottom: 0;
-    object-position: 88.07% 34.37%;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-7-2 .u-sheet-1 {
-    min-height: 380px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-7-2 .u-sheet-1 {
-    min-height: 239px;
-  }
-
-  .u-section-7-2 .u-image-1 {
-    object-position: 37.67% 34.37%;
-  }
-}
-
- .u-section-7-3 {
-  background-image: none;
-}
-
-.u-section-7-3 .u-sheet-1 {
-  min-height: 100vh;
-}
-
-.u-section-7-3 .u-image-1 {
-  filter: brightness(0.95);
   height: 630px;
   object-position: 50% 13.87%;
   width: 1120px;
@@ -1100,22 +1020,22 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-7-3 .u-sheet-1 {
+  .u-section-7-2 .u-sheet-1 {
     min-height: 660px;
   }
 
-  .u-section-7-3 .u-image-1 {
+  .u-section-7-2 .u-image-1 {
     height: 529px;
     width: 940px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-7-3 .u-sheet-1 {
+  .u-section-7-2 .u-sheet-1 {
     min-height: 100vh;
   }
 
-  .u-section-7-3 .u-image-1 {
+  .u-section-7-2 .u-image-1 {
     height: 557px;
     margin-top: 51px;
     margin-bottom: 51px;
@@ -1127,17 +1047,17 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-7-3 .u-sheet-1 {
+  .u-section-7-2 .u-sheet-1 {
     min-height: 380px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-7-3 .u-sheet-1 {
+  .u-section-7-2 .u-sheet-1 {
     min-height: 100vh;
   }
 
-  .u-section-7-3 .u-image-1 {
+  .u-section-7-2 .u-image-1 {
     height: 610px;
     object-position: 30.73% 13.87%;
     width: auto;
